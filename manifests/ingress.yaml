@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: todo-delete-tasks-api-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
     - host: delete-task-api.tanishka.store
       http:
